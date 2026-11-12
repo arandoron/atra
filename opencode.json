@@ -6,9 +6,7 @@
       "options": {
         "enabled": true,
         "endpoint": "http://localhost:4318",
-        "protocol": "http/json",
-        "metricPrefix": "claude_code.",
-        "resourceAttributes": "service.version=1.2.3,deployment.environment=production"
+        "protocol": "http/json"
       }
     }
   ]

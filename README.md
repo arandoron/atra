@@ -11,6 +11,8 @@ docker compose up
 In order for traces to be sent to the collector, the config for OpenCode inside `opencode.json` has
 to be placed in the root directory OpenCode is executed inside.
 
+The plugin for getting the traces is [opencode-plugin-otel](https://github.com/DEVtheOPS/opencode-plugin-otel).
+
 ### Notes
 
 Changing the configuration for plugins of OpenCode requires any running instance of the background server to be stopped, because the config has to be consistent.
